@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s ease-in-out;
+  font-family: 'noto sans', sans-serif;
+  color: #163A24;
+}
+
+.about-content_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 98px;
+}
+
+.about-title {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  width: 435px;
+}
+
+.about-desc {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 27px;
+  line-height: 27px;
+  width: 380px;
+}
+
+.about-content .container {
+  flex-direction: column;
+  gap: 113px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 87px;
+}
+
+.about-bottom_title {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 66px;
+  text-align: center;
+}
