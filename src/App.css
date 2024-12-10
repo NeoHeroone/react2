@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/recoleta');
 
 .container {
   max-width: 1440px;
@@ -9,4 +9,26 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 130px;
+}
+
+.title{
+  font-family: "recoleta", sans-serif;
+}
+
+button{
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+button:hover{
+  color: white !important;
+  background: black !important;
+}
+
+button:active{
+  transform: scale(0.8);
+}
+
+a:hover{
+  color: black !important;
 }

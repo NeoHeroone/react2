@@ -2,7 +2,7 @@ import "./index.css"
 import Logo from '../../assets/logo.svg'
 import HeroRight from '../../assets/hero-right.png'
 
-function Hero() {
+function Hero({ children }) {
   return (
     <div className="navbar">
       <div className="container">
@@ -15,13 +15,15 @@ function Hero() {
             <a href="#">844-332-6440</a>
           </li>
           <li>
-            <button className="hero-btn">Get Started</button>
+            <button className="hero-btn">
+              {children ? children : "Get Started"}
+              </button>
           </li>
         </ul>
       </div>
       <div className="container hero-content">
         <div className="hero-text_content">
-          <h1 className="hero-title">
+          <h1 className="hero-title title">
             Running the show has never been so easy.
           </h1>
           <p className="hero-desc">

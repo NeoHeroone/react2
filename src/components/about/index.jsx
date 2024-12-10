@@ -15,7 +15,7 @@ const Index = () => {
             <div className="about-content_box">
               <img src={Hr} alt="" />
               <div className="about-text_box">
-                <h2 className="about-title">
+                <h2 className="about-title title">
                   Put the human back in HR.
                 </h2>
                 <p className="about-desc">
@@ -25,7 +25,7 @@ const Index = () => {
             </div>
             <div className="about-content_box">
               <div className="about-text_box">
-                <h2 className="about-title">
+                <h2 className="about-title title">
                   You don’t have to play all the parts.
                 </h2>
                 <p className="about-desc">
@@ -36,7 +36,7 @@ const Index = () => {
             </div>
           </div>
           <div className="carousel">
-            <h2 className="about-bottom_title">
+            <h2 className="about-bottom_title title">
               We partner with the best
             </h2>
             <div className="carousel-track">

@@ -1,0 +1,64 @@
+.submit-content {
+  background: #F2EFE6;
+}
+
+.submit-content .container {
+  padding: 60px 130px;
+}
+
+.submit-content .container .submit-textContent h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 26px;
+}
+
+.submit-content .container .submit-textContent p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 18px;
+}
+
+.submit-content .container .submit-inputContent p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 545px;
+  margin-top: 20px;
+}
+
+.submit-content .container .submit-inputContent p span {
+  color: #198C36;
+  margin-left: 5px;
+}
+
+.submit-content .container .submit-inputContent form input {
+  border: 1px solid transparent;
+  background: transparent;
+  outline: none;
+  position: relative;
+  z-index: 10;
+  left: 30px;
+  width: 345px;
+  height: 30px;
+  font-size: 24px;
+  top: 3px;
+}
+
+.submit-content .container .submit-inputContent form input:focus{
+  border: 1px solid #15762E;
+}
+
+.submit-content .container .submit-inputContent form {
+  background: #FFFFFF;
+  border-radius: 100px;
+}
+
+.submit-content .container .submit-inputContent form button {
+  margin-left: 90px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  background: #15762E;
+}

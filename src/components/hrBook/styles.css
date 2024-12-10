@@ -1,0 +1,20 @@
+.hr-content .container h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  width: 370px;
+}
+
+.hr-content .container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 25px;
+  margin-bottom: 19px;
+}
+
+.hr-content .container{
+  justify-content: center;
+  gap: 98px;
+  padding: 119px 130px;
+}

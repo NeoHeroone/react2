@@ -8,7 +8,7 @@ const Production = () => {
   return (
     <div className="production-content">
       <div className="container">
-        <h2 className="production-title">
+        <h2 className="production-title title">
           HR Production of the Highest Quality
         </h2>
         <div className="production-content_box">

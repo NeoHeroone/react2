@@ -1,0 +1,60 @@
+.started-content {
+  background-color: #163A24;
+}
+
+.started-content * {
+  color: #FBFAF7;
+}
+
+.started-content .container {
+  flex-direction: column;
+  padding: 114px 0 124px 0;
+}
+
+.started-content .container h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  position: relative;
+  z-index: 10;
+}
+
+.started-content .container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 26px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 18px;
+}
+
+.started-content .container .hero-btn {
+  color: #163A24;
+  background: #FAB5A0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+.position-boxstr {
+  position: absolute;
+  z-index: 1;
+}
+
+.strImg {
+  position: relative;
+}
+
+.str1 {
+  top: -93px;
+  left: -390px;
+}
+
+.str2 {
+  top: -93px;
+  left: 390px;
+}
